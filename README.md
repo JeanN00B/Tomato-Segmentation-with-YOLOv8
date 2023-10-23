@@ -4,6 +4,7 @@ This is a repository with the results of my graduation work about detecting toma
 ## Dataset Description:
 The Laboro Tomato Dataset is a comprehensive dataset designed for object detection and instance segmentation. It features images of growing tomatoes in a greenhouse, categorized by their ripening stages and tomato types.
 ![dataset](https://github.com/JeanN00B/Tomato-Segmentation-with-YOLOv8/blob/main/Illustrations/tomatoes_categories.png)
+
 *Fig 1. Tomatoe dataset labels*
 
 ### Key Features
@@ -78,9 +79,11 @@ Finally, in the ![YOLOv8 code](https://github.com/JeanN00B/Tomato-Segmentation-w
 ## Results:
 
 ![Mask R-CNN prediction](https://github.com/JeanN00B/Tomato-Segmentation-with-YOLOv8/blob/698dfd8b2ca6b3c61a47359304484bd52b511d18/Illustrations/MRCNN-half-ripened.jpg)
+
 *Fig 2. Prediction performed by Mask R-CNN*
 
 ![YOLOv8 prediction](https://github.com/JeanN00B/Tomato-Segmentation-with-YOLOv8/blob/698dfd8b2ca6b3c61a47359304484bd52b511d18/Illustrations/YOLO-half-ripened.jpg)
+
 *Fig 3. Prediction performed by YOLOv8*
 
 
