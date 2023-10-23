@@ -3,6 +3,7 @@ This is a repository with the results of my graduation work about detecting toma
 
 ## Dataset Description:
 The Laboro Tomato Dataset is a comprehensive dataset designed for object detection and instance segmentation. It features images of growing tomatoes in a greenhouse, categorized by their ripening stages and tomato types.
+
 ![dataset](https://github.com/JeanN00B/Tomato-Segmentation-with-YOLOv8/blob/main/Illustrations/tomatoes_categories.png)
 
 *Fig 1. Tomatoe dataset labels*
