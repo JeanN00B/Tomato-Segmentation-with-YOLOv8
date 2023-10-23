@@ -32,6 +32,9 @@ This dataset can be used for various applications, including:
 For detailed information, consult the original paper and examples in the dataset [LaboroTomato](https://github.com/laboroai/LaboroTomato).
 
 ## Setup the Environments
+
+It is recommended to install YOLOv8 and Mask R-CNN in different environments to avoid libraries and packages conflicts, once both environments are set up with the libraries, the jupyter notebooks and the python codes can be used, be aware if the directories in the code matches yours.
+
 ### YOLOv8 Virtual Environment
 
 ```bash
