@@ -4,6 +4,7 @@ This is a repository with the results of my graduation work about detecting toma
 ## Dataset Description:
 The Laboro Tomato Dataset is a comprehensive dataset designed for object detection and instance segmentation. It features images of growing tomatoes in a greenhouse, categorized by their ripening stages and tomato types.
 ![dataset](https://github.com/JeanN00B/Tomato-Segmentation-with-YOLOv8/blob/main/Illustrations/tomatoes_categories.png)
+*Fig 1. Tomatoe dataset labels*
 
 ### Key Features
 - Ripening Stages: The dataset classifies tomatoes into three ripening stages: ripe, half-ripe, and green.
@@ -73,4 +74,14 @@ The Mask R-CNN and YOLOv8 jupyter notebooks, are designed to be run on google co
 On the other hand, there are also some python codes, in the ![Color algorithm methodology](https://github.com/JeanN00B/Tomato-Segmentation-with-YOLOv8/tree/0ff5d5a80b465c7406b87f92b255b667aefa372a/Mask%20R-CNN%20code/Color%20algorithm%20methodology) there are the color analysis, and square error scripts used to simulate the color analysis techniques the benchmark paper authors applied. and in the ![Mask extractions and images](https://github.com/JeanN00B/Tomato-Segmentation-with-YOLOv8/tree/0ff5d5a80b465c7406b87f92b255b667aefa372a/Mask%20R-CNN%20code/Color%20algorithm%20methodology/Mask%20extractions%20and%20images) are the extracted masks and predicted images. Is important to considere that the groundtruth images used in the script are in the COCO format.
 
 Finally, in the ![YOLOv8 code](https://github.com/JeanN00B/Tomato-Segmentation-with-YOLOv8/tree/0ff5d5a80b465c7406b87f92b255b667aefa372a/YOLOv8%20code) folder, there is the hyperparameter tuning script, this at the end will generate all the possible efficient hyperparameter combinations and trainings, also the best results obtained in this work are attached in the ![YOLOv8 model tuned results](https://github.com/JeanN00B/Tomato-Segmentation-with-YOLOv8/tree/0ff5d5a80b465c7406b87f92b255b667aefa372a/YOLOv8%20code/YOLOv8%20model%20tuned%20results)
+
+## Results:
+
+![Mask R-CNN prediction](https://github.com/JeanN00B/Tomato-Segmentation-with-YOLOv8/blob/698dfd8b2ca6b3c61a47359304484bd52b511d18/Illustrations/MRCNN-half-ripened.jpg)
+*Fig 2. Prediction performed by Mask R-CNN*
+
+![YOLOv8 prediction](https://github.com/JeanN00B/Tomato-Segmentation-with-YOLOv8/blob/698dfd8b2ca6b3c61a47359304484bd52b511d18/Illustrations/YOLO-half-ripened.jpg)
+*Fig 3. Prediction performed by YOLOv8*
+
+
 
